@@ -19,4 +19,5 @@ public class NotSynchronizedCounter implements Runnable {
             threads[i].join();
         }
     }
+
 }
